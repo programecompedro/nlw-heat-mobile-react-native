@@ -15,6 +15,8 @@ To run your project, navigate to the directory and run one of the following yarn
 ##### Attention!!! You need navegate to /app to run expo command!
 expo start
 
+expo start -c = clear the application's cash
+
 ### You Can download Microsoft Visual Studio Emulator for Android in
     Link: https://visualstudio.microsoft.com/pt-br/vs/msft-android-emulator/
     or
