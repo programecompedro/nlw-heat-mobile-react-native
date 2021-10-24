@@ -40,5 +40,6 @@ expo start
         expo install expo-font @expo-google-fonts/roboto 
     
     ##### commands snippets
-        rnc - react native create 
+        rnc - react native create class component
+        rnf - react native create function component
         rnstyle - style ts
