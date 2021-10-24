@@ -35,3 +35,8 @@ expo start
 
     View from react native is like a "<div>" in web;
     Text to render text in your app
+
+    ##### to install font roboto:
+        expo install expo-font @expo-google-fonts/roboto 
+    
+    
