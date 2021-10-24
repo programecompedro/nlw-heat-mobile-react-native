@@ -8,6 +8,7 @@ import {
 import AppLoading from 'expo-app-loading';
 
 import { Home } from './src/screens/home';
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -17,6 +18,11 @@ export default function App() {
   if (!fontsLoaded) {
     return (<AppLoading />)
   } else {
-    return (<Home />)
+    return (
+      <>
+        <StatusBar style="light" />
+        <Home />
+      </>
+    )
   }
 }
