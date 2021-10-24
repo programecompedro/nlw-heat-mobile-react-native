@@ -39,4 +39,6 @@ expo start
     ##### to install font roboto:
         expo install expo-font @expo-google-fonts/roboto 
     
-    
+    ##### commands snippets
+        rnc - react native create 
+        rnstyle - style ts
