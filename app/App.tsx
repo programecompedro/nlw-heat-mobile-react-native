@@ -9,7 +9,7 @@ import AppLoading from 'expo-app-loading';
 
 import { Home } from './src/screens/home';
 import { StatusBar } from 'expo-status-bar';
-
+import  SignInBox from './src/components/SignInBox'
 export default function App() {
   const [fontsLoaded] = useFonts({
     Roboto_400Regular,
@@ -22,6 +22,7 @@ export default function App() {
       <>
         <StatusBar style="light" />
         <Home />
+        <SignInBox />
       </>
     )
   }
